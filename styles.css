@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+  text-align: center;
+  background-color: #1A1A40;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #FA58B6;
+  text-shadow: 5px 0 #7A0BC0;
+  font-family: 'Architects Daughter', cursive;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+
+}
+
+footer,a {
+  color: #FA58B6;
+  font-family: sans-serif;
+}
+
+.a {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.603),rgba(255, 255, 255, 0.692)),url('images/tom1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.s {
+  background:  linear-gradient(rgba(255, 255, 255, 0.603),rgba(255, 255, 255, 0.692)),url('images/tom2.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.d {
+  background:  linear-gradient(rgba(255, 255, 255, 0.603),rgba(255, 255, 255, 0.692)),url('images/tom3.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.f {
+  background:  linear-gradient(rgba(255, 255, 255, 0.603),rgba(255, 255, 255, 0.692)),url('images/tom4.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.j {
+  background:  linear-gradient(rgba(255, 255, 255, 0.603),rgba(255, 255, 255, 0.692)),url('images/snare.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.k {
+  background:  linear-gradient(rgba(255, 255, 255, 0.603),rgba(255, 255, 255, 0.692)),url('images/crash.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.l {
+  background:  linear-gradient(rgba(255, 255, 255, 0.603),rgba(255, 255, 255, 0.692)),url('images/kick.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.set {
+  margin: 10% auto;
+}
+.pressed {
+  box-shadow: 0 6px 8px 0 #7A0BC0;
+  opacity: 0.5;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #7A0BC0;
+  font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  color: #1A1A40;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
